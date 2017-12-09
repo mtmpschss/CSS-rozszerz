@@ -1,0 +1,37 @@
+#elementy-blokowe {
+    background-color: beige;
+}
+
+#elementy-liniowe {
+    background-color: chocolate;
+}
+
+#elementy-inline-block {
+    background-color: deeppink;
+}
+
+#element-display-none {
+    background-color: lime;
+}
+
+#elementy-blokowe #block-p1,
+#block-p2 {
+    display: inline;
+}
+
+#elementy-liniowe #inline-p1,
+#inline-p2 {
+    display: block;
+}
+
+#elementy-inline-block > ul > li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+#element-display-none {
+    display: none;
+}
